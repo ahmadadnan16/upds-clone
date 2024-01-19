@@ -1,3 +1,4 @@
+import LatestPictures from "../components/LatestPictures"
 import NewsroomCard from "../components/NewsroomCard"
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
     <div>
       Home
       <NewsroomCard/>
+      <LatestPictures/>
     </div>
   )
 }
