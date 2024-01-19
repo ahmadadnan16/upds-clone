@@ -16,6 +16,7 @@ import Members from "./pages/Members";
 import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Newsroom from "./pages/Newsroom";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/events" element={<Events/>}/>
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/fund_appeal" element={<FundAppeal />} />
+          <Route path="/card" element={<Card/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
