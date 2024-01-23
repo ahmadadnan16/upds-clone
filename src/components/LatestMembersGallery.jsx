@@ -130,9 +130,9 @@ const LatestMembersGallery = () => {
     <h1 className="text-purple-700 text-xl md:2xl lg:text-3xl uppercase font-semibold px-6 py-7">
       Latest Members
     </h1>
-    <div className="w-full flex flex-wrap mx-auto gap-1 rounded px-3 mb-3">
+    <div className="w-full flex flex-wrap mx-auto gap-1 rounded px-3 mb-3 justify-center">
       {galleryData.map((item, index) => (
-        <div key={index} className="w-1/12 overflow-hidden">
+        <div key={index} className="w-20 md:w-32 lg:w-40 overflow-hidden">
           <img
             src={item.image}
             alt={item.alt}
