@@ -17,6 +17,15 @@ import Events from "./pages/Events";
 import Gallery from "./pages/Gallery";
 import Newsroom from "./pages/Newsroom";
 import Card from "./components/Card";
+import BeMentor from "./pages/BeMentor";
+import ShareAchievements from "./pages/ShareAchievements";
+import ShareOpportunities from "./pages/ShareOpportunities";
+import InviteFriends from "./pages/InviteFriends";
+import Volunteer from "./pages/Volunteer";
+import Recruit from "./pages/Recruit";
+import CampusVisit from "./pages/CampusVisit";
+import SendQuery from "./pages/SendQuery";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -35,6 +44,15 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/fund_appeal" element={<FundAppeal />} />
           <Route path="/card" element={<Card/>}/>
+          <Route path="/be_a_mentor" element={<BeMentor/>}/>
+          <Route path="/share_achievements" element={<ShareAchievements/>}/>
+          <Route path="/share_opportunities" element={<ShareOpportunities/>}/>
+          <Route path="/invite_friends" element={<InviteFriends/>}/>
+          <Route path="/volunteer" element={<Volunteer/>}/>
+          <Route path="/recruit" element={<Recruit/>}/>
+          <Route path="/campus_visit" element={<CampusVisit/>}/>
+          <Route path="/send_a_query" element={<SendQuery/>}/>
+          <Route path="/contact_us" element={<ContactUs/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
