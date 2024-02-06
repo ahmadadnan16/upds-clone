@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-full bg-blue-600">
+    <div className="w-full bg-blue-600 hidden lg:block">
       <div className="w-10/12 mx-auto flex  text-white  text-lg font-semibold ">
         <div className="py-4 px-5 hover:bg-blue-800 hover:border-x-white transition-all duration-300  cursor-pointer group">
           ABOUT US

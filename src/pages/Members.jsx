@@ -1,5 +1,4 @@
 
-import React from "react";
 import Department from "./Department";
 
 const data=[
