@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import Department from '../pages/Department';
+import React from 'react'
 
 const Card = () => {
   return(
